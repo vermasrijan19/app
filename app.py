@@ -83,7 +83,7 @@ def chk_accuracy():
     current_time = datetime.now().strftime("%Y-%m-%d-%H-%M-%S")
     update_json_file("data.json", user, q, score, current_time)
     return {"user": user, "score": score}
-app = Flask(__name__)
+
 
 
 
