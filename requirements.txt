@@ -1,0 +1,6 @@
+flask
+markupsafe
+flask-cors
+scikit-image
+sewar
+html2image
